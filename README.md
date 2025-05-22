@@ -12,6 +12,7 @@ Add folder to new projects and prepend . to github folder
 Add secrets to repos under Settings > Secrets and Variables
 
 set secret WPE_SSHG_KEY_PRIVATE with your private key
+pbcopy < ~/.ssh/wpengine_ed25519
 
 WP Engine
 Set up site and establish prod env
