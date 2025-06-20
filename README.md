@@ -11,8 +11,17 @@ Github Actions Workflow
 Add folder to new projects and prepend . to github folder
 Add secrets to repos under Settings > Secrets and Variables
 
+re initlialize git 
+
+rm -rf .git
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:HaystackDigital/Warburg-Pincus-DEI.git
+git push -u origin main
+
 set secret WPE_SSHG_KEY_PRIVATE with your private key
-pbcopy < ~/.ssh/wpengine_ed25519
+pbcopy < ~/.ssh/id_rsa
 
 WP Engine
 Set up site and establish prod env
