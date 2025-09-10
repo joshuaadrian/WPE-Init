@@ -16,11 +16,14 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
+wp-content/upgrade/
 
 # wpengine specific
 .smushit-status
 .gitattributes
 _wpeprivate*
+wp-content/.logs/
+wp-content/drop-ins/
 wp-content/object-cache.php
 wp-content/mu-plugins/mu-plugin.php
 wp-content/mu-plugins/slt-force-strong-passwords.php
@@ -31,6 +34,8 @@ wp-content/mysql.sql
 wp-content/mu-plugins/wpengine-security-auditor.php
 wp-content/mu-plugins/wpe-wp-sign-on-plugin*
 wp-content/mu-plugins/
+wp-content/themes/genesis-block-theme/
+wp-content/plugins/genesis-blocks/
 
 # wp core (as of 4.9.5)
 /db-config.php

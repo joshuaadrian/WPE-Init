@@ -29,3 +29,6 @@ Set up site and establish prod env
 if you need to generate a new ssh key for your device
 
 https://wpengine.com/support/ssh-keys-for-shell-access/#sshconfig
+
+        UPDATE wp_options SET option_value = REPLACE(option_value, '//cilkerhenderson.com', '//clkrhenderson.wpenginepowered.com');
+
