@@ -35,5 +35,5 @@ if you need to generate a new ssh key for your device
 
 https://wpengine.com/support/ssh-keys-for-shell-access/#sshconfig
 
-UPDATE wp_options SET option_value = REPLACE(option_value, '//cilkerhenderson.com', '//clkrhenderson.wpenginepowered.com');
+UPDATE wp_options SET option_value = REPLACE(option_value, '//live-wp-howard-case.pantheonsite.io ', '//wphowardcase.wpenginepowered.com');
 
